@@ -1,0 +1,12 @@
+version: "1.0"
+services:
+  tripwallet:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image:
+      tripwallet
+    volumes:
+      - ${PWD}:/tripwallet
+    command: sh -c 'bash'
+
