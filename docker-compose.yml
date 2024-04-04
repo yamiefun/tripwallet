@@ -8,5 +8,7 @@ services:
       tripwallet
     volumes:
       - ${PWD}:/tripwallet
-    command: sh -c 'bash'
+    #command: sh -c 'bash'
+    ports:
+      - "55688:55688"
 
