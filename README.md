@@ -5,4 +5,11 @@ Let's go!!
 ## Steps
 1. `$ docker-compose run --service-ports tripwallet`
 2. `$ cd backend`
-3. `$ ./runserver.sh`
+
+### Run backend
+`cd backend`
+`$ ./runserver.sh`
+
+### Run frontend
+`$ cd frontend`
+`$ ./runserver.sh`

@@ -11,4 +11,5 @@ services:
     #command: sh -c 'bash'
     ports:
       - "55688:55688"
+      - "55689:55689"
 
