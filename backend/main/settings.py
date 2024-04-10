@@ -141,8 +141,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 SOCIALACCOUNT_PROVIDERS = {
     "github": {
         "APP": {
-            "client_id": "83db657996a6518a1c8f",
-            "secret": "f6938b08fddce32039a8ef3806e69068e6636240",
+            "client_id": "",
+            "secret": "",
             "key": "",
         }
     },
@@ -151,8 +151,8 @@ SOCIALACCOUNT_PROVIDERS = {
             'access_type': 'online',
         },
         "APP": {
-            "client_id": "823855940895-lq2cqh94bv94rbsipmoablkhre8pj3ne.apps.googleusercontent.com",
-            "secret": "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",
+            "client_id": "",
+            "secret": "",
         },
         'OAUTH_PKCE_ENABLED': True,
     }
